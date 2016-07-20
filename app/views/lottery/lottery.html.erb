@@ -1,0 +1,8 @@
+<h1>Lottery</h1>
+<h2>Today's winning numbers are:</h2>
+<ul>
+  <% @winning_number.each do |number| %>
+    <li><%= number %></li>
+  <% end %>
+</ul>
+<h3><a href="http://localhost:3000/">Home</a></h3>
